@@ -1,0 +1,76 @@
+.image-wrapper {
+	width: 69px;
+	height: 69px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.image { position: absolute; top: 0; left: 0; }
+.overlap { position: absolute; top: 0; left: 0; z-index: 1; }
+
+a:visited, a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.title {
+	font-family: 'Poiret One', cursive;
+	/*font-family: courier; */
+	/*font-size: 15px;*/
+	/*color: black;*/
+	color:  black;
+	font-size: 15px;
+	font-weight: bold;
+	/*opacity: 100; */
+
+
+}
+
+.title2 {
+	font-family: 'Poiret One', cursive;
+	/*font-family: courier; */
+	/*font-size: 15px;*/
+	/*color: black;*/
+	color:  black;
+	font-size: 9px;
+	font-weight: bold;
+	/*opacity: 100; */
+
+
+}
+
+.dropped-image {
+	width: 69px;
+	height: 69px;
+    visibility: visible;
+    /*z-index: -1; */
+    /*opacity: 0.5; */ 
+} 
+
+header {
+	position: fixed;
+	background: rgba(220,220,220,.4);
+	width: inherit;
+	height: 24px;
+	cursor: auto;
+	z-index: 2000;
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+#menu {
+	padding-left: 6px;
+	padding-top: 4px;
+}
+
+h5{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 2px;
+	margin: 0px;
+	width: 100%;
+	background-color: #efefef;
+}

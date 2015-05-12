@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///Users/orhanawatramani/Desktop/history/reflow/FINAL/contact.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>NATURES DIGEST</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="file:///Users/orhanawatramani/Desktop/history/reflow/FINAL/main.css">
+        <link href="./NATURES DIGEST_files/css" rel="stylesheet" type="text/css">
+        <link href="./NATURES DIGEST_files/css(1)" rel="stylesheet" type="text/css">
+        <script src="./NATURES DIGEST_files/jquery-1.11.2.min.js"></script>
+
+        
+ 
+    </head>
+    <body>
+         <h1>
+            <a href="file:///Users/orhanawatramani/Desktop/history/reflow/FINAL/index.html"> NATURES DIGEST </a>
+        </h1>
+        
+        <h2>SWALLOW WHATS AROUND YOU</h2>
+          <h3> <a href="file:///Users/orhanawatramani/Desktop/history/reflow/FINAL/about.html"> ABOUT </a>   | <a href="file:///Users/orhanawatramani/Desktop/history/reflow/FINAL/new.html"> NEWS </a>  |  <a href="./NATURES DIGEST_files/NATURES DIGEST.html"> CONTACT </a></h3>
+        <br>
+        <h4>CONTACT US</h4>
+        <br>
+        <div class="request" style="display: none;">
+            Your request has been submitted!
+        </div>
+        
+        <div class="information">
+        Contact Number: <br> <font color="teal">#917-323-647</font>
+        </div>
+        
+       
+        
+        <div class="email">
+        Email us at: <br> <font color="teal">Naturesdigest@condenast.in</font>
+        </div>
+        <br>
+        <br>
+        
+        <div class="further">
+        For further assistance please leave us with your information and you will be contacted
+        </div>
+        <br>
+        <br>
+        <div class="submit">
+        <form action="file:///Users/orhanawatramani/Desktop/history/reflow/FINAL/action_page.php">
+            
+            <input type="text" name="firstname" placeholder="First name">
+            <br>
+            <br>
+            <br>
+            
+          
+            <input type="text" name="lastname" placeholder="Last name">
+            <br>
+            <br>
+            <br>
+            
+           
+            <input type="text" name="emailaddress" placeholder="Email address">
+            <br>
+            <br>
+            <br>
+            
+          
+            <input type="text" name="dateofbirth" placeholder="Date of Birth">
+            <br>
+            <br>
+            <br>
+            
+            
+            <div class="malefemale">
+            <input type="radio" name="sex" value="male" checked="">Male
+            <br>
+            <br>
+            <input type="radio" name="sex" value="female">Female
+            <br>
+            <br>
+            <br>
+            <a onclick="myFunction()" class="button">Submit</a> 
+            </div>
+            </form></div>
+
+<p id="demo"></p>
+
+<script>
+$(".request").hide();
+function myFunction() {
+            $.ajax(
+                {
+                    url: "data.json",
+                    cache:false,
+                    success: function(data){
+                    $(".request").show();                
+                    }
+                }
+                
+            );
+     
+};
+
+</script>            
+        
+        
+        
+    <br>
+    <br>
+    
+        <div class="contact">
+        NATURES DIGEST, N.A. Member FDIC. Equal Housing Lender opens in a new window 
+        © 2015 Condenast Publication. All rights reserved.
+        Glossary Term: Unsolicited Idea Submission Policy
+        </div>
+        
+    
+    
+
+
+
+</body></html>

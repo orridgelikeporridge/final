@@ -1,0 +1,32 @@
+.g {
+    padding: 0.25em;
+    overflow: hidden;
+}
+.g li {
+    float: left;
+    width: 50%;
+    padding: 0em;
+    padding: 4.8%;
+}
+
+.g img {
+    display: block;
+    margin: auto;
+    z-index: 1%;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 40em) {
+    .g li {
+        width: 33.3333333333333333%; 
+    }
+    .g li:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+.g a {
+    position: relative;
+    display: block;
+}

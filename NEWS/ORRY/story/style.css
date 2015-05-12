@@ -1,0 +1,34 @@
+.body {
+	background-color: #53A99C;
+}
+
+.image-wrapper {
+	/*width: 69px;
+	height: 69px; */
+	position: relative; 
+	/*text-align: center; */
+	display: inline-block;
+	cursor: pointer;
+	opacity: 0.5; 
+}
+
+.image { position: absolute; top: 250; left: 500;  }
+.overlap { position: absolute; top: 250; left: 500; z-index: 1;  }
+
+
+
+
+
+
+.dropped-image {
+	width: 69px;
+	height: 69px;
+    visibility: visible;
+    opacity: 0.8; 
+    /*z-index: -1; */
+    /*opacity: 0.5; */ 
+} 
+
+
+
+
